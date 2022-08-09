@@ -1,0 +1,29 @@
+[
+    {
+       "id": 1,
+       "title":"Vegan Fajitas",
+       "ingredients":"Onion,Bell peppers,Asparagus,Portobello mushroom,Olive Oil,Chili Powder,Cumin,Smoked paprika,Garlic powder,Onion powder",
+       "cooking_time":"10min",
+       "instructions":"Preheat the oven to 425 degrees Fahrenheit. Thinly slice the onion. Slice the bell peppers.Chop the mushroom into bite-sized pieces. Add the veggies to a big bowl and toss them with the olive oil, chili powder, cumin, paprika, garlic powder, onion powder, and kosher salt. Line 2 baking sheets with parchment paper. Add the vegetables in a single layer. Roast 15 minutes, then remove the sheets, stir the veggies, and sprinkle on another ½ teaspoon salt spread between the trays (¼ teaspoon on each). Stir again, then return to the oven and roast another 10 minutes until tender. Meanwhile, pit the avocados. Scoop out the flesh into a bowl and mash with a fork. Add the lime juice, salt, and cilantro. Heat the refried beans in a small sauce pan. If desired, char the tortillas by placing them on an open gas flame on medium for a few seconds per side, flipping with tongs, until they are slightly blackened and warm. (See How to Warm Tortillas.) To serve, place the refried beans and roasted veggies in tortillas, and top with guac-ish.", 
+       "imageUrl" : "https://www.veggiessavetheday.com/wp-content/uploads/2019/04/Sheet-Pan-Vegan-Fajitas-FI-1200-500x500.jpg"
+       },
+       {
+        "id": 2,
+        "title":"Palak Paneer",
+        "ingredients":"10-ounce bag of baby spinach,garlic,ginger,jalapeno peppers ,2 tablespoons coconut oil,1 medium onion, diced,2 cloves garlic, minced,½ teaspoon ground cumin,½ teaspoon garam masala,½ teaspoon salt,¼ teaspoon ground turmeric, large fresh tomato diced, 12-ounce package paneer cut into 1-inch cubes, 4 tablespoons coconut milk",
+        "cooking_time":"10min",
+        "instructions":"Bring a medium saucepan of lightly salted water to a boil. Add the spinach leaves and remove from the heat. Let it sit for about 1 to 2 minutes, until the leaves are wilted but are still bright green. Drain in a colander. While the spinach is cooling, chop the chile, garlic, and ginger in a food processor. Add the spinach to the food processor and process to a smooth puree. Heat the oil in a medium saucepan over medium-high heat. Add the onions and cook, stirring occasionally, until the onion is softened and beginning to brown, about 5 minutes. Add the garlic and cook, stirring, 1 minute more. Add the cumin, garam masala, salt, and turmeric and stir for 15 to 30 seconds. Stir in the tomatoes along with the spinach puree and about ½ cup of water. Bring to a simmer and then reduce the heat to medium-low and let simmer for about 5 minutes, until it has thickened. Stir in the coconut milk and the paneer and cook for 5 to 10 minutes, until the  paneer is heated through and softened. Serve hot with rice or naan.", 
+        "imageUrl" : "https://biryanimaxx.com/wp-content/uploads/2022/03/Palak-Paneer-5-500x500-1.jpeg"
+        },
+        {
+            "id": 3,
+            "title":"Tofu Stir Fry",
+            "ingredients":"200 gram fresh tofu cut into cubes, red onion,finely chopped ginger, finely chopped garlic,red chilli flakes,chopped celery stalk,green beans, cut into half lengthwise,broccoli florets red bell pepper diced,zucchini cut into cubes, yellow bell pepper cut into cubes, sesame oil or olive oil,a tablespoon rice vinegar or white vinegar,tablespoon dark soy sauce,tablespoon chilli garlic sauce or Sriracha sauce Salt and black pepper to taste,½ Cup vegetable stock or broth",
+            "cooking_time":"10min",
+            "instructions":"Firmly press the tofu with a paper towel to drain all the moisture. Then cut into cubes.Combine salt, black pepper, half a tablespoon soy sauce, and tofu in a bowl. Mix nicely.Heat 2 tablespoon oil in a non-stick pan. Fry the tofu cubes till crisp from both sides. Set it aside. Prepare Stir Fry:In a Chinese wok heat remaining oil and swirl to coat the wok with oil.Add ginger,garlic,red chili,celery stalk, and red onion. Stir fry for 20 seconds to release the aroma of herbs. Then add veggies one by one and stir-fry on high heat. Cook for 5 -7 minutes, stirring the skillet. When the vegetables have a shining layer and softened a bit, add the sauces and the stock. Stir to combine. Add the crispy tofu cubes. Mix. Cook the stir-fry for 3 to 5 minutes or till the sauce thickens a bit. When veggies are cooked to your preferred doneness, remove from heat.If you prefer, add spring onion greens and sesame seeds for garnishing.Tofu Veggie Stir Fry tastes best with steamed jasmine rice or chilli garlic noodles.", 
+            "imageUrl" : "https://www.funfoodfrolic.com/wp-content/uploads/2020/03/Tofu-Stir-Fry-3.jpg"
+        }
+
+   ]
+
+   
