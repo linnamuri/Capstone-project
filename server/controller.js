@@ -14,7 +14,7 @@ module.exports = {
   
     createRecipe: (req, res) => 
         {
-            const {title,ingredients,instructions, cooking_time,imageUrl} = req.body;
+            const {title,ingredients,instructions,imageUrl} = req.body;
             //console.log(req.body)
             let newRecipe = {
             id: globalId,

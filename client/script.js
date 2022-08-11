@@ -1,14 +1,16 @@
 const recipesContainer = document.getElementById('recipesContainer')
 const form = document.querySelector('form')
 
-const baseURL = `http://localhost:4000/api/recipes`
+const getrecipeURL =`http://localhost:4000/api/getallrecipes`
+const postrecipeURL =`http://localhost:4000/api/createrecipe`
+const deleterecipeURL =`http://localhost:4000/api/deleterecipe`
 
 
 const recipesCallback = ({ data: recipes }) => displayRecipes(recipes)
-const getAllRecipes = () => axios.get(baseURL).then(recipesCallback).catch(errCallback)
+const getAllRecipes = () => axios.get(getrecipeURL).then(recipesCallback).catch(errCallback)
 const errCallback = err => console.log(err.response.data)
-const createRecipe = body => axios.post(baseURL, body).then(recipesCallback).catch(errCallback)
-const deleteRecipe = id => axios.delete(`${baseURL}/${id}`).then(recipesCallback).catch(errCallback)
+const createRecipe = body => axios.post(postrecipeURL, body).then(recipesCallback).catch(errCallback)
+const deleteRecipe = id => axios.delete(`${deleterecipeURL}/${id}`).then(recipesCallback).catch(errCallback)
 
 function submitHandler(e) {
     e.preventDefault()
@@ -48,7 +50,7 @@ function createRecipeCard(recipe) {
                     <div class="flip-card-back">
                       <br/><p class="card-text">Recipe Name: ${recipe.title}</p><br/>
                       <p class="card-text">Ingredients: <br/> ${recipe.ingredients}</p><br/>
-                      <p class="card-text">Procedure: <br/>
+                      <p class="card-text">Instructions: <br/>
                         ${recipe.instructions}</p>
                      <button type="button"  class="btn" id="deleteRecipeBtn" onclick=deleteRecipe(${recipe.id})>Delete Recipe</button>
                     </div>

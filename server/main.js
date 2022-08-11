@@ -11,9 +11,9 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-app.get('/api/recipes', getAllRecipes)
-app.post('/api/recipes', createRecipe)
-app.delete('/api/recipes/:id',deleteRecipe)
+app.get('/api/getallrecipes', getAllRecipes)
+app.post('/api/createrecipe', createRecipe)
+app.delete('/api/deleterecipe/:id',deleteRecipe)
 
 
 
