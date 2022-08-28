@@ -1,5 +1,6 @@
 //This element in HTML will be holding recipe cards
 const recipesContainer = document.getElementById('recipesContainer')
+const form = document.querySelector('form')
 
 //End Points for Get, Create and Delete Recipes
 const getrecipeURL =`http://localhost:4000/api/getallrecipes`
